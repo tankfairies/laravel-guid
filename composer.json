@@ -1,0 +1,43 @@
+{
+  "name": "tankfairies/laravel-guid",
+  "description": "Laravel GUID Generator",
+  "type": "library",
+  "keywords": ["guid"],
+  "homepage": "https://tankfairies.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jon",
+      "email": "jon@tankfairies.com",
+      "role": "lead"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/tankfairies/laravel-guid/issues"
+  },
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelGuid\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "tankfairies/guid": "1.*",
+    "codeception/codeception": "^3.0"
+  },
+  "config": {
+    "platform": {
+      "php": "7.3.0"
+    },
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelGuid\Facades;
+namespace Tankfairies\LaravelGuid\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

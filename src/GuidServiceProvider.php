@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelGuid\Guid;
+namespace Tankfairies\LaravelGuid\Guid;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;

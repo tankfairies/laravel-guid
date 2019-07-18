@@ -42,10 +42,6 @@ Register the package service provider in `config/app.php` file.
 'providers' => [
     Tankfairies\LaravelGuid\Guid\GuidServiceProvider::class,
 ]
-
-'aliases' => [
-   'Guid' => Tankfairies\LaravelGuid\Guid::class,
-]
 ```
 
 ## Create GUID

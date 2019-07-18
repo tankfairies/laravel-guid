@@ -13,8 +13,12 @@ if (!function_exists('guid')) {
      * @return string
      * @throws GuidException
      */
-    function guid($version = GuidInterface::FMT_STRING, $format = GuidInterface::UUID_RANDOM, $salt='', $namespace='')
-    {
+    function guid(
+        $version = GuidInterface::UUID_RANDOM,
+        $format = null,
+        $salt = null,
+        $namespace = null
+    ) {
         return (new Guid())->generate($version, $format, $salt, $namespace);
     }
 }

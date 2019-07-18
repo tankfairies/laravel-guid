@@ -40,7 +40,7 @@ Register the package service provider in `config/app.php` file.
 
 ```php
 'providers' => [
-    Tankfairies\LaravelGuid\GuidServiceProvider::class,
+    Tankfairies\LaravelGuid\Guid\GuidServiceProvider::class,
 ]
 
 'aliases' => [

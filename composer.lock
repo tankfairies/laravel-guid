@@ -4,8 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c63008d729593c54c5d7a2d8af8a851",
-    "packages": [],
+    "content-hash": "7dffbed174785091dbcb77482d4ab8bc",
+    "packages": [
+        {
+            "name": "tankfairies/guid",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tankfairies/guid.git",
+                "reference": "7cd4a03df8eeab11c10e493830346bf77f4cff7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tankfairies/guid/zipball/7cd4a03df8eeab11c10e493830346bf77f4cff7d",
+                "reference": "7cd4a03df8eeab11c10e493830346bf77f4cff7d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "codeception/codeception": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tankfairies\\Guid\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon",
+                    "email": "jon@tankfairies.com",
+                    "role": "lead"
+                }
+            ],
+            "description": "GUID Generator",
+            "homepage": "https://tankfairies.com/",
+            "keywords": [
+                "guid"
+            ],
+            "time": "2019-07-16T22:51:03+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "behat/gherkin",
@@ -68,16 +113,16 @@
         },
         {
             "name": "codeception/codeception",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "aead7eb0a53b040390a927dc84a0e6e37ffa8a2b"
+                "reference": "feb566a9dc26993611602011ae3834d8e3c1dd7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/aead7eb0a53b040390a927dc84a0e6e37ffa8a2b",
-                "reference": "aead7eb0a53b040390a927dc84a0e6e37ffa8a2b",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/feb566a9dc26993611602011ae3834d8e3c1dd7f",
+                "reference": "feb566a9dc26993611602011ae3834d8e3c1dd7f",
                 "shasum": ""
             },
             "require": {
@@ -102,6 +147,8 @@
             },
             "require-dev": {
                 "codeception/specify": "~0.3",
+                "doctrine/annotations": "^1",
+                "doctrine/orm": "^2",
                 "flow/jsonpath": "~0.2",
                 "monolog/monolog": "~1.8",
                 "pda/pheanstalk": "~3.0",
@@ -156,7 +203,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2019-06-22T19:16:46+00:00"
+            "time": "2019-07-18T16:21:08+00:00"
         },
         {
             "name": "codeception/phpunit-wrapper",
@@ -3303,50 +3350,6 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2019-04-06T14:04:46+00:00"
-        },
-        {
-            "name": "tankfairies/guid",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tankfairies/guid.git",
-                "reference": "c3985d1fde6c004a5130f10506f2210ff431b85b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tankfairies/guid/zipball/c3985d1fde6c004a5130f10506f2210ff431b85b",
-                "reference": "c3985d1fde6c004a5130f10506f2210ff431b85b",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.2"
-            },
-            "require-dev": {
-                "codeception/codeception": "^3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Tankfairies\\Guid\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jon",
-                    "email": "jon@tankfairies.com",
-                    "role": "lead"
-                }
-            ],
-            "description": "GUID Generator",
-            "homepage": "https://tankfairies.com/",
-            "keywords": [
-                "guid"
-            ],
-            "time": "2019-07-16T22:34:55+00:00"
         },
         {
             "name": "theseer/tokenizer",

@@ -17,8 +17,8 @@
   },
   "prefer-stable": true,
   "require": {
-    "php": "^7.2",
-    "tankfairies/guid": "1.*"
+    "php": "^8.2",
+    "tankfairies/guid": "2.*"
   },
   "autoload": {
     "psr-4": {
@@ -31,11 +31,11 @@
     }
   },
   "require-dev": {
-    "codeception/codeception": "^3.0"
+    "codeception/codeception": "^5.1"
   },
   "config": {
     "platform": {
-      "php": "7.3.0"
+      "php": "8.2.0"
     },
     "optimize-autoloader": true,
     "sort-packages": true

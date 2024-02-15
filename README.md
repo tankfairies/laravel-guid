@@ -2,7 +2,7 @@
 [![Total Downloads](https://poser.pugx.org/tankfairies/laravel-guid/downloads)](https://packagist.org/packages/tankfairies/laravel-guid)
 [![Latest Unstable Version](https://poser.pugx.org/tankfairies/laravel-guid/v/unstable)](https://packagist.org/packages/tankfairies/laravel-guid)
 [![License](https://poser.pugx.org/tankfairies/laravel-guid/license)](https://packagist.org/packages/tankfairies/laravel-guid)
-[![Build Status](https://travis-ci.com/tankfairies/laravel-guid.svg?branch=master)](https://travis-ci.com/tankfairies/laravel-guid)
+[![Build Status](https://travis-ci.com/tankfairies/laravel-guid.svg?branch=2.0)](https://travis-ci.com/tankfairies/laravel-guid)
 
 # Laravel GUID
 

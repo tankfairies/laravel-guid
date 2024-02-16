@@ -16,8 +16,8 @@ if (!function_exists('guid')) {
     function guid(
         $version = GuidInterface::UUID_RANDOM,
         $format = GuidInterface::FMT_STRING,
-        $salt = null,
-        $namespace = null
+        $salt = '',
+        $namespace = ''
     ) {
         return (new Guid())->generate($version, $format, $salt, $namespace);
     }

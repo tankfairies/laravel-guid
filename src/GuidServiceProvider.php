@@ -26,15 +26,6 @@ class GuidServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/helpers.php';
-
-        $this->app->bind('guid', function ($app) {
-            return new Guid();
-        });
-
-        $this->app->booting(function () {
-            $loader = AliasLoader::getInstance();
-            $loader->alias('Guid', 'Tankfairies\LaravelGuid\Facades\Guid');
-        });
     }
 
     /**
